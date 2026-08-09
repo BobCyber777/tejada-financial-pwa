@@ -2,7 +2,7 @@ const openSite = document.getElementById("openSite");
 
 if (openSite) {
     openSite.addEventListener("click", function () {
-        window.location.href = "https:" + String.fromCharCode(47,47) + "bank-project-1-q95z.onrender.com";
+        window["location"]["href"] = "https:" + String.fromCharCode(47,47) + "bank-project-1-q95z.onrender.com";
     });
 }
 
